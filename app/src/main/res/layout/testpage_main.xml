@@ -5,6 +5,13 @@
         android:layout_height="match_parent" >
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE:"
+        android:textSize="22sp"
+        android:id="@+id/score"/>
+    <TextView
+        android:layout_toRightOf="@+id/score"
         android:id="@+id/score_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
