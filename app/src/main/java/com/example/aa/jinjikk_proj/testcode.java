@@ -15,6 +15,7 @@ public class testcode extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(getApplicationContext(),test_main.class);
+                    intent.putExtra("stage",1);
                     startActivity(intent);
                 }
             }

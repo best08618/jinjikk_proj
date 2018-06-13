@@ -54,6 +54,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick1"
                     android:scaleType="fitXY" />
 
                 <Button
@@ -62,6 +63,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick2"
                     android:scaleType="fitXY" />
 
                 <Button
@@ -70,6 +72,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick3"
                     android:scaleType="fitXY" />
 
             </LinearLayout>
@@ -85,6 +88,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick4"
                     android:scaleType="fitXY" />
 
                 <Button
@@ -93,6 +97,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick5"
                     android:scaleType="fitXY" />
 
                 <Button
@@ -101,6 +106,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick6"
                     android:scaleType="fitXY" />
 
             </LinearLayout>
@@ -116,6 +122,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick7"
                     android:scaleType="fitXY" />
 
                 <Button
@@ -124,6 +131,7 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick8"
                     android:scaleType="fitXY" />
 
                 <Button
@@ -132,10 +140,19 @@
                     android:layout_height="@dimen/button_height"
                     android:layout_margin="@dimen/button_margin"
                     android:background="@drawable/button"
+                    android:onClick="onButtonClick9"
                     android:scaleType="fitXY" />
 
             </LinearLayout>
 
         </LinearLayout>
+
+    <TextView
+        android:id="@+id/stage_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp" />
 
 </RelativeLayout>
