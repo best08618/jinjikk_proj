@@ -2,6 +2,7 @@ package com.example.aa.jinjikk_proj;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
@@ -76,6 +77,10 @@ public class Show_ip_port extends Activity {
                 break;
             case R.id.button6:
                 (new sendMessage()).start();
+                break;
+            case R.id.next:
+                Intent intent = new Intent(getApplicationContext(),LedActivity.class);
+                startActivity(intent);
         }
     }
 
